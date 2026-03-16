@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Read version
         id: version
@@ -49,8 +49,7 @@ jobs:
       - name: Zip extension
         if: steps.tag_check.outputs.exists == 'false'
         run: |
-          cd build/chrome-mv3-prod
-          zip -r ../../../extension.zip .
+          cd build/chrome-mv3-prod && zip -r ../../extension.zip .
 
       - name: Create tag
         if: steps.tag_check.outputs.exists == 'false'
