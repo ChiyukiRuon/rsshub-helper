@@ -1,0 +1,190 @@
+{
+    "gui_options_button_add": {
+        "message": "新增匹配规则",
+        "description": "新增匹配规则按钮"
+    },
+    "gui_options_button_down": {
+        "message": "下移",
+        "description": "下移按钮"
+    },
+    "gui_options_button_export": {
+        "message": "导出",
+        "description": "导出按钮"
+    },
+    "gui_options_button_import": {
+        "message": "导入",
+        "description": "导入按钮"
+    },
+    "gui_options_button_next": {
+        "message": "下一页",
+        "description": "下一页按钮"
+    },
+    "gui_options_button_previous": {
+        "message": "上一页",
+        "description": "上一页按钮"
+    },
+    "gui_options_button_remove": {
+        "message": "删除",
+        "description": "删除按钮"
+    },
+    "gui_options_button_runTest": {
+        "message": "执行测试",
+        "description": "执行测试按钮"
+    },
+    "gui_options_button_save": {
+        "message": "保存",
+        "description": "保存按钮"
+    },
+    "gui_options_button_up": {
+        "message": "上移",
+        "description": "上移按钮"
+    },
+    "gui_popup_button_copy": {
+        "message": "复制链接",
+        "description": "复制链接按钮"
+    },
+    "gui_popup_button_open": {
+        "message": "打开预览",
+        "description": "打开预览按钮"
+    },
+    "gui_popup_button_setting": {
+        "message": "设置",
+        "description": "设置按钮"
+    },
+    "message_options_rule_import_fail": {
+        "message": "导入失败：$1",
+        "description": "规则导入失败信息"
+    },
+    "message_options_rule_import_invalid_1": {
+        "message": "JSON 结构必须是数组",
+        "description": "规则导入错误信息"
+    },
+    "message_options_rule_import_invalid_2": {
+        "message": "JSON 格式不合法",
+        "description": "规则导入错误信息"
+    },
+    "message_options_rule_import_success": {
+        "message": "规则导入成功！",
+        "description": "规则导入成功信息"
+    },
+    "message_options_rule_remove_confirm": {
+        "message": "确定删除这条规则吗？",
+        "description": "规则删除确认信息"
+    },
+    "message_options_rule_save_fail": {
+        "message": "",
+        "description": "规则保存失败信息"
+    },
+    "message_options_rule_save_success": {
+        "message": "规则保存成功！",
+        "description": "规则保存成功信息"
+    },
+    "meta_description": {
+        "message": "一个快速获取网页RSS链接的小工具",
+        "description": "插件描述"
+    },
+    "meta_name": {
+        "message": "RSSHub Helper",
+        "description": "插件名称"
+    },
+    "placeholder_options_rule_name": {
+        "message": "规则名称",
+        "description": "规则管理提示"
+    },
+    "placeholder_options_rule_rule": {
+        "message": "匹配地址",
+        "description": "规则管理提示"
+    },
+    "placeholder_options_rule_template": {
+        "message": "RSSHub 路径模板",
+        "description": "规则管理提示"
+    },
+    "placeholder_options_test_test": {
+        "message": "https://...",
+        "description": "规则管理提示"
+    },
+    "text_options_desc": {
+        "message": "编辑偏好设置与订阅规则",
+        "description": "插件选项描述"
+    },
+    "text_options_preference_autoCopy_desc": {
+        "message": "当页面检测到匹配规则时，自动将转换后的 RSS 链接复制到剪贴板",
+        "description": "自动复制描述"
+    },
+    "text_options_preference_autoCopy_title": {
+        "message": "自动复制",
+        "description": "自动复制标题"
+    },
+    "text_options_preference_autoDetect_desc": {
+        "message": "在页面加载时自动根据规则分析 RSS 链接",
+        "description": "自动检测 RSS 描述"
+    },
+    "text_options_preference_autoDetect_title": {
+        "message": "自动检测 RSS",
+        "description": "自动检测 RSS 标题"
+    },
+    "text_options_preference_autoPopupCopy_desc": {
+        "message": "点击插件图标打开弹出窗口时，自动将转换后的 RSS 链接复制到剪贴板",
+        "description": "打开 Popup 自动复制描述"
+    },
+    "text_options_preference_autoPopupCopy_title": {
+        "message": "打开 Popup 自动复制",
+        "description": "打开 Popup 自动复制标题"
+    },
+    "text_options_rule_current": {
+        "message": "第 $1 / $2 页",
+        "description": "规则管理当前页文本"
+    },
+    "text_options_rule_untitled": {
+        "message": "未命名规则",
+        "description": "规则管理文本"
+    },
+    "text_options_section_preference_desc": {
+        "message": "",
+        "description": "插件选项描述"
+    },
+    "text_options_section_preference_title": {
+        "message": "偏好设置",
+        "description": "插件选项"
+    },
+    "text_options_section_rule_desc": {
+        "message": "",
+        "description": "插件选项描述"
+    },
+    "text_options_section_rule_title": {
+        "message": "规则管理",
+        "description": "插件选项"
+    },
+    "text_options_section_test_desc": {
+        "message": "输入一个链接，测试当前规则库是否能正确匹配并生成路由",
+        "description": "插件选项描述"
+    },
+    "text_options_section_test_title": {
+        "message": "规则测试器",
+        "description": "插件选项"
+    },
+    "text_options_test_fail": {
+        "message": "匹配失败: $1",
+        "description": "规则测试器失败文本"
+    },
+    "text_options_test_invalid_1": {
+        "message": "请输入 URL",
+        "description": "规则测试器文本"
+    },
+    "text_options_test_invalid_2": {
+        "message": "未匹配到任何规则",
+        "description": "规则测试器文本"
+    },
+    "text_options_test_success": {
+        "message": "匹配成功 (规则 #$1: $2)",
+        "description": "规则测试器成功文本"
+    },
+    "text_popup_copied": {
+        "message": "已复制！",
+        "description": "已复制链接文本"
+    },
+    "text_popup_noRSS": {
+        "message": "未匹配到 RSS 规则",
+        "description": "未匹配到 RSS 规则文本"
+    }
+}

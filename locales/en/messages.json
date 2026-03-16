@@ -1,0 +1,190 @@
+{
+    "gui_options_button_add": {
+        "message": "Add",
+        "description": "Add matching rule button"
+    },
+    "gui_options_button_down": {
+        "message": "Down",
+        "description": "Move down button"
+    },
+    "gui_options_button_export": {
+        "message": "Export",
+        "description": "Export button"
+    },
+    "gui_options_button_import": {
+        "message": "Import",
+        "description": "Import button"
+    },
+    "gui_options_button_next": {
+        "message": "Next",
+        "description": "Next page button"
+    },
+    "gui_options_button_previous": {
+        "message": "Prev",
+        "description": "Previous page button"
+    },
+    "gui_options_button_remove": {
+        "message": "Remove",
+        "description": "Delete button"
+    },
+    "gui_options_button_runTest": {
+        "message": "Test",
+        "description": "Run test button"
+    },
+    "gui_options_button_save": {
+        "message": "Save",
+        "description": "Save button"
+    },
+    "gui_options_button_up": {
+        "message": "Up",
+        "description": "Move up button"
+    },
+    "gui_popup_button_copy": {
+        "message": "Copy",
+        "description": "Copy link button"
+    },
+    "gui_popup_button_open": {
+        "message": "Open",
+        "description": "Open preview button"
+    },
+    "gui_popup_button_setting": {
+        "message": "Settings",
+        "description": "Settings button"
+    },
+    "message_options_rule_import_fail": {
+        "message": "Import failed: $1",
+        "description": "Rule import failure message"
+    },
+    "message_options_rule_import_invalid_1": {
+        "message": "JSON structure must be an array",
+        "description": "Rule import error message"
+    },
+    "message_options_rule_import_invalid_2": {
+        "message": "Invalid JSON format",
+        "description": "Rule import error message"
+    },
+    "message_options_rule_import_success": {
+        "message": "Rules imported successfully!",
+        "description": "Rule import success message"
+    },
+    "message_options_rule_remove_confirm": {
+        "message": "Are you sure you want to delete this rule?",
+        "description": "Rule deletion confirmation message"
+    },
+    "message_options_rule_save_fail": {
+        "message": "",
+        "description": "Rule save failure message"
+    },
+    "message_options_rule_save_success": {
+        "message": "Rules saved successfully!",
+        "description": "Rule save success message"
+    },
+    "meta_description": {
+        "message": "A small tool for quickly obtaining RSS links from web pages",
+        "description": "Extension description"
+    },
+    "meta_name": {
+        "message": "RSSHub Helper",
+        "description": "Extension name"
+    },
+    "placeholder_options_rule_name": {
+        "message": "Rule Name",
+        "description": "Rule management placeholder"
+    },
+    "placeholder_options_rule_rule": {
+        "message": "Match URL",
+        "description": "Rule management placeholder"
+    },
+    "placeholder_options_rule_template": {
+        "message": "RSSHub Path Template",
+        "description": "Rule management placeholder"
+    },
+    "placeholder_options_test_test": {
+        "message": "https://...",
+        "description": "Rule management placeholder"
+    },
+    "text_options_desc": {
+        "message": "Edit preferences and subscription rules",
+        "description": "Extension options description"
+    },
+    "text_options_preference_autoCopy_desc": {
+        "message": "Automatically copy the generated RSS link to the clipboard when a matching rule is detected on the page",
+        "description": "Auto copy description"
+    },
+    "text_options_preference_autoCopy_title": {
+        "message": "Auto Copy",
+        "description": "Auto copy title"
+    },
+    "text_options_preference_autoDetect_desc": {
+        "message": "Automatically analyze RSS links based on rules when the page loads",
+        "description": "Auto detect RSS description"
+    },
+    "text_options_preference_autoDetect_title": {
+        "message": "Auto Detect RSS",
+        "description": "Auto detect RSS title"
+    },
+    "text_options_preference_autoPopupCopy_desc": {
+        "message": "Automatically copy the generated RSS link when opening the popup by clicking the extension icon",
+        "description": "Auto copy on popup open description"
+    },
+    "text_options_preference_autoPopupCopy_title": {
+        "message": "Auto Copy on Popup Open",
+        "description": "Auto copy on popup open title"
+    },
+    "text_options_rule_current": {
+        "message": "Page $1 / $2",
+        "description": "Rule management current page text"
+    },
+    "text_options_rule_untitled": {
+        "message": "Untitled",
+        "description": "Rule management text"
+    },
+    "text_options_section_preference_desc": {
+        "message": "",
+        "description": "Extension options description"
+    },
+    "text_options_section_preference_title": {
+        "message": "Preferences",
+        "description": "Extension options section"
+    },
+    "text_options_section_rule_desc": {
+        "message": "",
+        "description": "Extension options description"
+    },
+    "text_options_section_rule_title": {
+        "message": "Rule Management",
+        "description": "Extension options section"
+    },
+    "text_options_section_test_desc": {
+        "message": "Enter a URL to test whether the current rule set can correctly match and generate a route",
+        "description": "Extension options description"
+    },
+    "text_options_section_test_title": {
+        "message": "Rule Tester",
+        "description": "Extension options section"
+    },
+    "text_options_test_fail": {
+        "message": "Match failed: $1",
+        "description": "Rule tester failure text"
+    },
+    "text_options_test_invalid_1": {
+        "message": "Please enter a URL",
+        "description": "Rule tester text"
+    },
+    "text_options_test_invalid_2": {
+        "message": "No matching rule found",
+        "description": "Rule tester text"
+    },
+    "text_options_test_success": {
+        "message": "Match succeeded (Rule #$1: $2)",
+        "description": "Rule tester success text"
+    },
+    "text_popup_copied": {
+        "message": "Copied!",
+        "description": "Copied link text"
+    },
+    "text_popup_noRSS": {
+        "message": "No RSS rule matched",
+        "description": "No RSS rule matched text"
+    }
+}
