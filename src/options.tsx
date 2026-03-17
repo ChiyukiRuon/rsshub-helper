@@ -3,6 +3,8 @@ import { generateRSS } from "~lib/rsshub";
 import { getAutoCopyPage, getAutoCopyPopup, getAutoDetect, getRules, saveRules, setAutoCopyPage, setAutoCopyPopup, setAutoDetect } from "~lib/storage";
 import icon from "../assets/icon.png";
 
+document.title = chrome.i18n.getMessage("meta_name")
+
 const PAGE_SIZE = 4
 
 interface Rule {
@@ -232,28 +234,29 @@ export default function Options() {
         const reader = new FileReader()
 
         reader.onload = async () => {
-            try {
-                const json = JSON.parse(reader.result as string)
+            const json = JSON.parse(reader.result as string)
 
-                if (!Array.isArray(json)) throw new Error(chrome.i18n.getMessage("message_options_rule_import_invalid_1"))
-
-                const valid = json.every(
-                    (r) =>
-                        typeof r.name === "string" &&
-                        typeof r.rule === "string" &&
-                        typeof r.template === "string"
-                )
-
-                if (!valid) throw new Error(chrome.i18n.getMessage("message_options_rule_import_invalid_2"))
-
-                setRules(json)
-
-                await saveRules(json)
-
-                alert(chrome.i18n.getMessage("message_options_rule_import_success"))
-            } catch (err) {
-                alert(chrome.i18n.getMessage("message_options_rule_import_fail", [err]))
+            if (!Array.isArray(json)) {
+                alert(chrome.i18n.getMessage("message_options_rule_import_invalid_1"))
+                return
             }
+
+            const valid = json.every(
+                (r) =>
+                    typeof r.name === "string" &&
+                    typeof r.rule === "string" &&
+                    typeof r.template === "string"
+            )
+
+            if (!valid) {
+                alert(chrome.i18n.getMessage("message_options_rule_import_invalid_2"))
+                return
+            }
+
+            setRules(json)
+            await saveRules(json)
+
+            alert(chrome.i18n.getMessage("message_options_rule_import_success"))
         }
 
         reader.readAsText(file)
